@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 
 default_intents = discord.Intents.default().all()
 default_intents.members = True
-client = commands.Bot(command_prefix="!ts ", help_command=None, intents=default_intents, activity=discord.Streaming(name="Status: !ts help", url="https://www.twitch.tv/game_k_"))
+client = commands.Bot(command_prefix="!ts ", help_command=None, intents=default_intents, activity=discord.Streaming(name="Status: !ts help", url="https://github.com/Game-K-Hack/TwitchStatusDiscordBot"))
 
 try:
     with open("env.pkl", "rb") as file:
@@ -49,7 +49,6 @@ def is_stream(channel:str):
 async def on_ready():
     init_channels()
     task_loop.start()
-    await client.change_presence(status=discord.Status.online, activity=activity)
     print(f"Connecté à {client.user.name}")
 
 @tasks.loop(minutes=2)
