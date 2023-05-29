@@ -87,7 +87,7 @@ async def live(ctx):
     live_channel = [channel for channel in channel_status.keys() if channel_status[channel]]
     if len(live_channel) > 0:
         live_channel = "**\n- **".join(live_channel)
-        await ctx.send(f"Voici la liste des personnes actuellement en live:\n**{live_channel}**")
+        await ctx.send(f"Voici la liste des personnes actuellement en live:\n- **{live_channel}**")
     else:
         await ctx.send("😔 Désolé, d'après ma liste il n'y a pas de live")
 
