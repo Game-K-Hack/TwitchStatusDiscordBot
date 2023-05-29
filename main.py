@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 
 default_intents = discord.Intents.default().all()
 default_intents.members = True
-client = commands.Bot(command_prefix="!ts ", help_command=None, intents=default_intents, activity=discord.Streaming(name="Status: !ts help", url="https://github.com/Game-K-Hack/TwitchStatusDiscordBot"))
+client = commands.Bot(command_prefix="!ts ", help_command=None, intents=default_intents, activity=discord.Streaming(name="Status: !ts help", url="https://www.twitch.tv/game_k_"))
 
 try:
     with open("env.pkl", "rb") as file:
