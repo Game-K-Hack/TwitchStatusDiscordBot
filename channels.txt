@@ -1,0 +1,54 @@
+#
+# The "#" char is not take by script, this make comment.
+#
+# Code JS to get all channels of twitch.
+# To run on any channel or on the homepage
+# Remember to press "Show more" to retrieve all channels.
+#
+# var r = document.querySelector('div[class="InjectLayout-sc-1i43xsx-0 eptOJT tw-transition-group"]').querySelectorAll("div");var a = [];
+# for (var i of r) {try {a.push(i.querySelector('p[data-a-target="side-nav-title"]').title);} catch {}}
+# alert([...new Set(a)].join("\n"));
+#
+
+woohankyung
+irissiri129
+saeyobim
+momoro9
+som0322
+goyo_0
+duswl1214
+darling0416
+bossberry_
+woomewoome
+sonookiii
+mallang_peach_
+kyul365
+iroiro_o
+yu2bee
+haruzzxng
+rockpuppysing
+lim1018
+gilyoung8
+eo0oiixy_04
+god_lita
+yomicoskr
+maruemon1019
+simsul1108
+mozzimanduv
+jo0ju492
+gyu_0227
+haemingwa
+chodan_
+p_tilda
+haena_0714
+auddk_77
+enako_chan
+woojungx4
+yoon_froggy
+aesoon_96
+we8136
+magenta62
+LillieNue
+sooflower
+berry0314
+smpk9604
