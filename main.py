@@ -96,7 +96,7 @@ async def task_loop():
         status = is_stream(channel)
         if not channel_status[channel] and status:
             ctx = client.get_channel(channel_id)
-            # await ctx.send(f"**{channel}** est actuellement en live\nhttps://www.twitch.tv/{channel}")
+            await ctx.send(f"**{channel}** est actuellement en live\nhttps://www.twitch.tv/{channel}")
         channel_status[channel] = status
     save()
 
